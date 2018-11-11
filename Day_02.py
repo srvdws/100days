@@ -1,11 +1,11 @@
-# Derive function
+# Compute the factorial
 
 
-def this(n):
+def factorial(n):
     if n == 0:
         return 1
     else:
-        return n * this(n-1)
+        return n * factorial(n-1)
 
 
-print(this(18))
+print(factorial(6))
