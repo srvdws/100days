@@ -7,10 +7,10 @@ class StringGetterAndPrinter():
     def __init__(self):
         self.string = ""
 
-    def getstring():
+    def getstring(self):
         self.string = input("Enter a string: \n")
 
-    def printstring():
+    def printstring(self):
         print(self.string.upper())
 
 mystring = StringGetterAndPrinter()
