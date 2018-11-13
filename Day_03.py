@@ -9,5 +9,5 @@ def generate_dict(n):
         my_dict[i] = i ** 2
 
 
-generate_dict(5)
+generate_dict(int(input("number?: ")))
 print(my_dict)
