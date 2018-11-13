@@ -1,10 +1,13 @@
-# find all number divisible by 7 but NOT 5 between 2000 and 3200
+# find all numbers divisible by 7 but NOT divisible by 5 between 2000 and 3200
 # solution: csv single line
 
-empty_list = []
+
+my_list = list()
+
 
 for i in range(2000, 3201):
     if i % 7 == 0 and i % 5 != 0:
-        empty_list.append(str(i))
+        my_list.append(i)
 
-print(" , ".join(empty_list))
+
+print(my_list)
