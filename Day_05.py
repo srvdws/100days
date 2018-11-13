@@ -2,20 +2,21 @@
 # getstring: take a string
 # printstring: print a string in uppercase
 
-class StringGetterAndPrinter():
+
+class GetAndPrintString():
 
     def __init__(self):
         self.string = ""
 
     def getstring(self):
-        self.string = input("Enter a string: \n")
+        self.string = input("a string plz: ")
 
     def printstring(self):
         print(self.string.upper())
 
-mystring = StringGetterAndPrinter()
+my_getter_printer = GetAndPrintString()
 
-mystring.getstring()
 
-mystring.printstring()
+my_getter_printer.getstring()
+my_getter_printer.printstring()
 
