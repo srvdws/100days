@@ -2,12 +2,13 @@
 # solution: csv single line
 
 
+def finder(li):
+    for i in range(2000, 2301):
+        if i % 7 == 0 and i % 5 != 5:
+            li.append(i)
+
+
 my_list = list()
+finder(my_list)
 
-
-for i in range(2000, 3201):
-    if i % 7 == 0 and i % 5 != 0:
-        my_list.append(i)
-
-
-print(my_list)
+print(",".join(str(i) for i in my_list))
