@@ -4,7 +4,7 @@
 
 def finder(li):
     for i in range(2000, 2301):
-        if i % 7 == 0 and i % 5 != 5:
+        if i % 7 == 0 and i % 5 != 0:
             li.append(i)
 
 
@@ -12,3 +12,15 @@ my_list = list()
 finder(my_list)
 
 print(",".join(str(i) for i in my_list))
+
+
+# def finder(li):
+#     for i in range(2000, 2301):
+#         if i % 7 == 0 and i % 5 != 5:
+#             li.append(i)
+#
+#
+# my_list = list()
+# finder(my_list)
+#
+# print(",".join(str(i) for i in my_list))
