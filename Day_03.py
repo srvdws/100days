@@ -3,12 +3,24 @@
 
 
 def make_dict(di, n):
-    for i in range(n):
+    for i in range(n+1):
         di[i] = i ** 2
 
 
-my_dict = dict()
+my_di = dict()
+make_dict(my_di, 7)
 
-make_dict(my_dict, 6)
+print(my_di)
 
-print(my_dict)
+
+
+# def make_dict(di, n):
+#     for i in range(n):
+#         di[i] = i ** 2
+#
+#
+# my_dict = dict()
+#
+# make_dict(my_dict, 6)
+#
+# print(my_dict)
