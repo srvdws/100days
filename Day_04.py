@@ -1,11 +1,19 @@
 # enter a series of comma seperated numbers, convert to list, convert to tuple
-
-my_input = input('Enter comma seperated numbers: \n')
-my_list = my_input.split(',')
-my_tuple = tuple()
+teststring = "7,5,3,1,5,9,8,2,4"
 
 
-for i in range(0, len(my_list)):
-    my_tuple = tuple(sorted(my_list[:i]))
+my_list = teststring.split(',')
+my_tuple = tuple(my_list)
 
-print(my_list, my_tuple)
+print(my_list)
+print(my_tuple)
+
+
+
+# my_input = teststring
+#
+# my_list = my_input.split(",")
+# my_tuple = tuple(my_list)
+#
+# print(my_list)
+# print(my_tuple)
