@@ -3,22 +3,25 @@
 # printstring: print a string in uppercase
 
 
-class MyGetterPrinter():
+class GetterAndPrinter():
 
-    def __init__(self):
+    def __int__(self):
         self.s = ""
 
     def getter(self):
-        self.s = input("feed me strings: ")
+        self.s = input("str pls: ")
 
     def printer(self):
-        return self.s.upper()
+        print(self.s.upper())
 
 
-my_string = MyGetterPrinter()
+mystring = GetterAndPrinter()
 
-my_string.getter()
-print(my_string.printer())
+mystring.getter()
+mystring.printer()
+
+
+
 
 
 # class StringGetterPrinter():
