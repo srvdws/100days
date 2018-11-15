@@ -7,7 +7,7 @@ dimension = [int(x) for x in sys_input.split(",")]
 rowin = dimension[0]
 colin = dimension[1]
 
-my_list = [["0" for i in range(rowin)] for d in range(colin)]
+my_list = [[0 for i in range(rowin)] for d in range(colin)]
 new_list = my_list
 
 for col in range(colin):
