@@ -24,3 +24,16 @@ for i in range(1500, 2701):
     if not i % 7 and not i % 5:
         print(i)
 
+# write a program that will guess a number between
+
+from random import randint
+
+print("random\n")
+print(randint(1,11))
+
+# create a cool printed pattern that looks like a sideways traingle
+
+print("triangle incoming: \n")
+
+for i in range(4):
+    for d in range(4):
