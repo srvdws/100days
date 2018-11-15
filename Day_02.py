@@ -1,11 +1,10 @@
 # Compute the factorial
 
 
-def factorial(n):
+def fact(n):
     if n == 0:
         return 1
     else:
-        return n * factorial(n-1)
+        return n * fact(n-1)
 
-
-print(factorial(4))
+print(fact(4))
