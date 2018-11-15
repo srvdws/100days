@@ -1,4 +1,4 @@
-# take 2 digits, x and y as inputs and generate a two- dimensional array
+# take 2 digits, x and y as inputs and generate a two dimensional array of the value of x and y multiplied
 
 sys_input = input("::")
 
@@ -8,12 +8,12 @@ rowin = dimension[0]
 colin = dimension[1]
 
 my_list = [["0" for i in range(rowin)] for d in range(colin)]
-new_list = list()
+new_list = my_list
 
-for row in range(rowin):
-    for col in range(colin):
-        my_list[row][col] = row * col
+for col in range(colin):
+    for row in range(rowin):
+        my_list[col][row] = row * col
 
-for i in my_list:
+for i in new_list:
     print(i)
 
