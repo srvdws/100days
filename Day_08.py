@@ -34,6 +34,13 @@ print(randint(1,11))
 # create a cool printed pattern that looks like a sideways traingle
 
 print("triangle incoming: \n")
-#
-# for i in range(4):
-#     for d in range(4):
+size = int(input("size? "))
+
+for i in range(size):
+    print("*" * i)
+
+for d in range(size):
+    print("*" * (size - d))
+
+
+
