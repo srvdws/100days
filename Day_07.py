@@ -1,19 +1,42 @@
 # take 2 digits, x and y as inputs and generate a two dimensional array of the value of x and y multiplied
 
-sys_input = input("::")
+my_input = (input("x, y").split(","))
 
-dimension = [int(x) for x in sys_input.split(",")]
+xval = int(my_input[0])
+yval = int(my_input[1])
 
-rowin = dimension[0]
-colin = dimension[1]
+e_list = [["0" for col in range(xval)] for row in range(yval)]
 
-my_list = [[0 for i in range(rowin)] for d in range(colin)]
-new_list = my_list
+for row in range(yval):
+    for col in range(xval):
+        e_list[row][col] = row * col
 
-for col in range(colin):
-    for row in range(rowin):
-        my_list[col][row] = row * col
-
-for i in new_list:
+for i in e_list:
     print(i)
+
+
+
+
+
+
+
+
+
+
+# sys_input = input("::")
+#
+# dimension = [int(x) for x in sys_input.split(",")]
+#
+# rowin = dimension[0]
+# colin = dimension[1]
+#
+# my_list = [[0 for i in range(rowin)] for d in range(colin)]
+# new_list = my_list
+#
+# for col in range(colin):
+#     for row in range(rowin):
+#         my_list[col][row] = row * col
+#
+# for i in new_list:
+#     print(i)
 
