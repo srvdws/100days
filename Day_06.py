@@ -9,12 +9,11 @@ h = 30
 # Input d as a list of values, calculate Q and output as a list/scv of ints
 # test string = 6,8,10
 
-
-my_input = [i for i in input("numbers: ").split(",")]
+my_input = [i for i in input("::").split(",")]
 q_list = list()
 
 for d in my_input:
-    q_list.append(int(math.sqrt(round((2 * c * int(d)) / h))))
+    q_list.append(int(round(math.sqrt((2 * c * int(d)) / h))))
 
 
 
