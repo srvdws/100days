@@ -31,7 +31,7 @@ print(array_num)
 
 #remove the first ocucurance of an element
 
-print("new_ arry: \n")
+print("\nnew_ arry: \n")
 new_array = array("i", [1,3,5,7,3,9,3,11])
 print(new_array)
 new_array.remove(3)
@@ -39,8 +39,11 @@ print(new_array)
 
 
 # convert an array into a list
+print("\ntype\n")
 
-
+print(type(new_array))
+x= new_array.tolist()
+print(type(x))
 
 
 
