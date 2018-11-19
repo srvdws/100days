@@ -8,18 +8,17 @@ class GetAndPrint():
     def __init__(self):
         self.str = ""
 
-    def getter(self):
-        self.str = input('str plz: ')
+    def gets(self):
+        self.str = input("Enter a string please: ")
 
-    def printer(self):
+    def prints(self):
         print(self.str.upper())
 
 
-my_str = GetAndPrint()
+my_string = GetAndPrint()
 
-my_str.getter()
-my_str.printer()
-
+my_string.gets()
+my_string.prints()
 
 
 
