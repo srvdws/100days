@@ -42,7 +42,7 @@ print(new_array)
 print("\ntype\n")
 
 print(type(new_array))
-x= new_array.tolist()
+x = new_array.tolist()
 print(type(x))
 
 
